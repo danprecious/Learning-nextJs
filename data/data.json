@@ -1,0 +1,28 @@
+{
+    "data" : [
+        {
+        "id": "1",
+        "title": "Events In London",
+        "description":  "",
+        "image": ""    
+    },
+    {
+        "id": "2",
+        "title": "Events In Lagos",
+        "description":  "",
+        "image": ""    
+    },
+    {
+        "id": "3",
+        "title": "Events In Ondo",
+        "description":  "",
+        "image": ""    
+    },
+    {
+        "id": "4",
+        "title": "Events In California",
+        "description":  "",
+        "image": ""    
+    }
+    ]
+}
