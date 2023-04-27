@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] })
       
         {data.map((ev) =>{
             return(
-              <div>
+              <div key={ev.id}>
                 <h1>{ev.title}</h1>
               </div>
             )
@@ -21,14 +21,16 @@ const inter = Inter({ subsets: ['latin'] })
       
     )
  }
+ export async function getStaticProps(context){
+  const { data } = await import('/data/data.json');
+  console.log(data);
+  console.log(context)
 
- export async function getServerSideProps(){
-    const { data } = await import('/data/data.json');
-    console.log(data);
-
-    return{
-      props: {
-        data: data,
-    }
+  return{
+    props: {
+      data: data,
   }
- }
+}
+}
+
+  
