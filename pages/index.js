@@ -1,36 +1,35 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import Link from 'next/link';
+import '../src/app/globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
-
- export default function Homepage ({data}) {
-
-
+const HomePage = ({data}) =>{
     return(
-      <div>
-      
-        {data.map((ev) =>{
-            return(
-              <div key={ev.id}>
-                <h1>{ev.title}</h1>
-              </div>
-            )
-        })}
-      
-      </div>
-      
+        <div>
+           {
+            data.map(ev => {
+                return(
+                    <div key={ev.id}>
+                        <h1>{ev.title}</h1>
+                        <p>{ev.description}</p>
+                        <Link href='/events/'>Click</Link>
+                    </div>
+                )
+            })
+           }
+        </div>
     )
- }
- export async function getStaticProps(context){
-  const { data } = await import('/data/data.json');
-  console.log(data);
-  console.log(context)
-
-  return{
-    props: {
-      data: data,
-  }
-}
 }
 
-  
+export default HomePage;
+
+
+export async function getServerSideProps() {
+
+    const {events} = await import('/data/data.json');
+    console.log(events);
+
+    return{
+        props: {
+            data: events,
+        }
+    }
+}

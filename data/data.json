@@ -1,27 +1,27 @@
 {
-    "data" : [
+    "events" : [
         {
         "id": "1",
         "title": "Events In London",
-        "description":  "",
+        "description":  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem.",
         "image": ""    
     },
     {
         "id": "2",
         "title": "Events In Lagos",
-        "description":  "",
+        "description":  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem.",
         "image": ""    
     },
     {
         "id": "3",
         "title": "Events In Ondo",
-        "description":  "",
+        "description":  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem.",
         "image": ""    
     },
     {
         "id": "4",
         "title": "Events In California",
-        "description":  "",
+        "description":  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem.",
         "image": ""    
     }
     ]
