@@ -1,11 +1,19 @@
 import {Link} from 'next/link';
 
-const EventCategories = () =>{
+const EventCategories = ({eventData}) =>{
 
     return(
         <div>
-            <h1>Events in London</h1>
-            <a href="events/1/">Go to single event</a>
+            {
+                eventData.map(ev => {
+                    return(
+                        <div key={ev.id}>
+                            <h1>{ev.title}</h1>
+                            <a href={`events/${ev.city}/${ev.id}`}>click to event</a>
+                        </div>
+                    )
+                })
+            }
         </div>
     )
 }
@@ -24,7 +32,7 @@ export async function getStaticPaths() {
             }
         }
     })
-    console.log(allPaths);
+    // console.log(allPaths);
     return{
         paths: allPaths,
         fallback: false,
@@ -32,9 +40,12 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context){
-    const {events} = await import ('/data/data.json');
     console.log(context);
+    const {allEvents} = await import ('/data/data.json');
+    const id = context?.params.cat;
+    const eventData = allEvents.filter(ev => ev.city === id)
+    console.log(eventData);
     return{
-        props: {},
+        props: {eventData},
     }
-}
+}   

@@ -1,28 +1,48 @@
 {
     "events" : [
         {
-        "id": "1",
+        "id": "london",
         "title": "Events In London",
         "description":  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem.",
         "image": ""    
     },
     {
-        "id": "2",
+        "id": "lagos",
         "title": "Events In Lagos",
         "description":  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem.",
         "image": ""    
     },
     {
-        "id": "3",
+        "id": "ondo",
         "title": "Events In Ondo",
         "description":  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem.",
         "image": ""    
     },
     {
-        "id": "4",
+        "id": "california",
         "title": "Events In California",
         "description":  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem.",
         "image": ""    
     }
+    ],
+    "allEvents": [
+        {
+            "id": "1",
+            "title":"Events In London",
+            "city": "london",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem."
+        },
+        {
+            "id": "2",
+            "title":"Events In California",
+            "city": "california",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem."
+        },
+        {
+            "id": "3",
+            "title":"Events In Ondo",
+            "city": "ondo",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem."
+        }
     ]
 }
