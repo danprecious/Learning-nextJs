@@ -4,44 +4,82 @@
         "id": "london",
         "title": "Events In London",
         "description":  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem.",
-        "image": ""    
+        "image": "/ball.jpg"    
     },
     {
         "id": "lagos",
         "title": "Events In Lagos",
         "description":  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem.",
-        "image": ""    
+        "image": "/bulb.jpg"    
+    },
+    {
+        "id": "akure",
+        "title": "Events in Akure",
+        "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem.",
+        "image": "/empty.jpg"
     },
     {
         "id": "ondo",
         "title": "Events In Ondo",
         "description":  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem.",
-        "image": ""    
+        "image": "/field.jpg"    
     },
     {
         "id": "california",
         "title": "Events In California",
         "description":  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem.",
-        "image": ""    
+        "image": "/fruit.jpg"    
     }
     ],
     "allEvents": [
         {
-            "id": "1",
-            "title":"Events In London",
+            "id": "london-comic-san",
+            "title":"London comic san",
             "city": "london",
-            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem."
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem.",
+            "image": "/ball.jpg"
         },
         {
-            "id": "2",
-            "title":"Events In California",
+            "id": "london-ball",
+            "title":"London ball",
+            "city": "london",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem.",
+            "image": "/flowers.jpg"
+        },
+        {
+            "id": "TedX-in-california",
+            "title":"TedX in California",
             "city": "california",
             "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem."
         },
         {
-            "id": "3",
+            "id": "halloween-in-california",
+            "title":"Halloween in California",
+            "city": "california",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem."
+        },
+        {
+            "id": "devfest-in-ondo",
             "title":"Events In Ondo",
             "city": "ondo",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem."
+        },
+        {
+            "id": "inventors-techhub",
+            "title":"Inventors TechHub",
+            "city": "ondo",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem."
+        },
+        {
+            "id": "techSubmit-in-Lagos",
+            "title":"Lagos Tech submit",
+            "city": "lagos",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem."
+        },
+        {
+            "id": "devfest-in-Lagos",
+            "title":"devfest-in-Lagos",
+            "city": "lagos",
             "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus exercitationem, in maxime officia velit veritatis vero rerum. Itaque, repudiandae dolorem."
         }
     ]

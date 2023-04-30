@@ -9,7 +9,7 @@ const EventCategories = ({eventData}) =>{
                     return(
                         <div key={ev.id}>
                             <h1>{ev.title}</h1>
-                            <a href={`events/${ev.city}/${ev.id}`}>click to event</a>
+                            <a href={`${ev.city}/${ev.id}`}>click to event</a>
                         </div>
                     )
                 })
@@ -44,7 +44,7 @@ export async function getStaticProps(context){
     const {allEvents} = await import ('/data/data.json');
     const id = context?.params.cat;
     const eventData = allEvents.filter(ev => ev.city === id)
-    console.log(eventData);
+    // console.log(eventData);
     return{
         props: {eventData},
     }

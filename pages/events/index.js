@@ -22,7 +22,7 @@ const EventsPage = ({data}) =>{
 export default EventsPage;
 
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
 
     const {events} = await import('/data/data.json');
     console.log(events);
